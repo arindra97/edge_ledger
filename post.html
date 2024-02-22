@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c16e739af4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Read Our Blog</title>
+</head>
+<body id="home">
+  <header class="hero blog">
+    <navbar id="navbar" class="navbar top">
+      <h1 class="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+      </h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#cases">Cases</a></li>
+        <li><a href="index.html#blog">Blog</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </navbar>
+
+    <div class="content">
+      <h1>Blog</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="post">
+      <h2>Blog Post One</h2>
+      <p class="meta">
+        <i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | 22 February 2024
+      </p>
+      <img src="images/blog/blog1.jpg" alt="">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit laborum nemo, alias fugiat facilis modi impedit dolorum repellendus. Quos perspiciatis error, illum minima nobis est accusamus ullam aut odio laudantium.</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quidem modi ad voluptates quod magnam excepturi minus natus aliquam. Reiciendis a impedit est nesciunt nulla nam architecto. Nam voluptatibus atque fugit, molestias dicta ipsam sint aperiam minima vitae officiis laboriosam, labore quasi deleniti suscipit nobis aliquam velit veritatis, molestiae fuga neque pariatur ut minus! Quaerat cupiditate optio architecto aspernatur expedita.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi assumenda a ducimus incidunt praesentium, nemo facere ipsa dicta molestiae eaque laboriosam architecto non fuga nostrum neque tempora delectus eligendi nam voluptate quaerat? Nihil, debitis doloremque officia distinctio autem perspiciatis soluta sed officiis at itaque facere est. Nisi, nobis odio.</p>
+    </section>
+  </main>
+
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="#"><i class="fab fa-tiktok fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2024 - EdgeLedger</p>
+  </footer>
+
+  <script>
+    // Make Navbar Not Transparent after Scrolling
+    const navbar = document.getElementById('navbar')
+
+    window.onscroll = function() {
+      if(window.pageYOffset > 100) {
+        navbar.classList.remove('top');
+      }else{
+        navbar.classList.add('top');
+      }
+    }
+  </script>
+</body>
+</html>
