@@ -184,7 +184,7 @@
         <div class="column">
           <div class="column-2 bg-light">
             <h2>Request Callback</h2>
-            <form action="" class="callback-form">
+            <form action="process.php" method="POST" class="callback-form">
               <div class="form-control">
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" placeholder="Enter name">
@@ -267,7 +267,7 @@
     // addEventListener('#navbar a, .btn', onclick, eventHandler);
 
     // Smooth Scrolling JQuery
-    $('#navbar a, .btn').on('click', function(e){
+    $('#navbar a').on('click', function(e){
       if (this.hash !== '') {
         e.preventDefault();
 

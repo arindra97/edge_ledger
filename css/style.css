@@ -201,6 +201,15 @@ img {
   margin: 0 auto 30px;
 }
 
+/* Success */
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
 /* Footer */
 .footer {
   display: flex;
